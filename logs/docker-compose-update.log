@@ -1,0 +1,68 @@
+Commencing docker-compose update Thu May 27 13:39:51 UTC 2021
+./docker-compose-update.sh: 7: ./docker-compose-update.sh: /usr/local/bin/docker-compose: not found
+Commencing docker-compose update Thu May 27 13:40:01 UTC 2021
+./docker-compose-update.sh: 7: ./docker-compose-update.sh: /usr/local/bin/docker-compose: not found
+Commencing docker-compose update Thu May 27 13:42:06 UTC 2021
+Pulls images for services defined in a Compose file, but does not start the containers.
+
+Usage: pull [options] [SERVICE...]
+
+Options:
+    --ignore-pull-failures  Pull what it can and ignores images with pull failures.
+    --parallel              Pull multiple images in parallel.
+    --quiet                 Pull without printing progress information
+Commencing docker-compose update Thu May 27 13:43:45 UTC 2021
+Pulls images for services defined in a Compose file, but does not start the containers.
+
+Usage: pull [options] [SERVICE...]
+
+Options:
+    --ignore-pull-failures  Pull what it can and ignores images with pull failures.
+    --parallel              Pull multiple images in parallel.
+    --quiet                 Pull without printing progress information
+Commencing docker-compose update Thu May 27 13:44:56 UTC 2021
+Pulls images for services defined in a Compose file, but does not start the containers.
+
+Usage: pull [options] [SERVICE...]
+
+Options:
+    --ignore-pull-failures  Pull what it can and ignores images with pull failures.
+    --parallel              Pull multiple images in parallel.
+    --quiet                 Pull without printing progress information
+Pulls images for services defined in a Compose file, but does not start the containers.
+
+Usage: pull [options] [SERVICE...]
+
+Options:
+    --ignore-pull-failures  Pull what it can and ignores images with pull failures.
+    --parallel              Pull multiple images in parallel.
+    --quiet                 Pull without printing progress information
+Commencing docker-compose update Thu May 27 13:46:25 UTC 2021
+Pulling app (zionmaori/node-vesra:latest)...
+latest: Pulling from zionmaori/node-vesra
+Digest: sha256:9a54c52e40ab6c382231d31ec199854a6dfed25cb0c9b0e900cd23aadfe84906
+Status: Image is up to date for zionmaori/node-vesra:latest
+Pulling nginx (nginx:latest)...
+latest: Pulling from library/nginx
+Digest: sha256:6d75c99af15565a301e48297fa2d121e15d80ad526f8369c526324f0f7ccb750
+Status: Image is up to date for nginx:latest
+Recreating versa_app ... 
+Recreating versa_app
+[1A[2KRecreating versa_app ... [32mdone[0m[1BRecreating vesaapp_nginx ... 
+Recreating vesaapp_nginx
+[1A[2KRecreating vesaapp_nginx ... [32mdone[0m[1BSleeping 10 seconds.
+Commencing docker-compose update Thu May 27 13:46:49 UTC 2021
+Pulling app (zionmaori/node-vesra:latest)...
+latest: Pulling from zionmaori/node-vesra
+Digest: sha256:9a54c52e40ab6c382231d31ec199854a6dfed25cb0c9b0e900cd23aadfe84906
+Status: Image is up to date for zionmaori/node-vesra:latest
+Pulling nginx (nginx:latest)...
+latest: Pulling from library/nginx
+Digest: sha256:6d75c99af15565a301e48297fa2d121e15d80ad526f8369c526324f0f7ccb750
+Status: Image is up to date for nginx:latest
+versa_app is up-to-date
+vesaapp_nginx is up-to-date
+Sleeping 10 seconds.
+Restarting vesaapp_nginx ... 
+Restarting versa_app     ... 
+[1A[2KRestarting versa_app     ... [32mdone[0m[1B[2A[2KRestarting vesaapp_nginx ... [32mdone[0m[2BFinishing docker-compose update Thu May 27 13:47:03 UTC 2021

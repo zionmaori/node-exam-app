@@ -4,7 +4,8 @@ services:
     image: nginx
     container_name: vesaapp_nginx
     volumes:
-      - ./nginx/zionmaori.com.conf:/etc/nginx/conf.d/zionmaori.com.conf
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./logs/:/var/logs/nginx/
     ports:
       - "80:80"
     links:
