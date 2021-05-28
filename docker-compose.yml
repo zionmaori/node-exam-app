@@ -4,12 +4,8 @@ services:
     image: nginx
     container_name: vesaapp_nginx
     volumes:
-<<<<<<< HEAD
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./logs/:/var/logs/nginx/
-=======
-      - ./nginx/default.conf:/etc/nginx/conf.d/defualt.conf
->>>>>>> ea97f56b99fd4de80aec1a92b9e14eb462922802
     ports:
       - "80:80"
     links:
